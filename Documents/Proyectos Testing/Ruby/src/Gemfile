@@ -1,0 +1,16 @@
+source 'https://rubygems.org'
+
+# Agrega las gemas necesarias para tu proyecto
+gem 'cucumber'        # Para Cucumber
+gem 'selenium-webdriver' # Para Selenium
+gem 'rspec'           # Opcional: Para escribir pruebas más avanzadas con RSpec
+
+# Especifica las versiones de las gemas, si es necesario
+# gem 'cucumber', 'x.x.x'
+# gem 'selenium-webdriver', 'x.x.x'
+# gem 'rspec', 'x.x.x'
+
+# Esto es opcional, pero puedes agrupar gemas para diferentes entornos.
+group :development, :test do
+  gem 'pry'           # Gema de depuración para desarrollo y pruebas
+end
